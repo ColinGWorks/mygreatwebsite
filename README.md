@@ -1,25 +1,20 @@
-My First Book with Markdown
-===
-Some Collection of Pointers
----
+# My First Book with Markdown
+## Some Collection of Pointers
 - [How to Create a Book ](/s/how-to-create-book)
 - [How to Save Versions](/s/how-to-save)
 - [Xilinx Vitis Discussion](https://www.eevblog.com/forum/fpga/xilinx-announces-vitis/?PHPSESSID=o7e7u7ieeshb8lo6jc8hjisf75)
 - [FPGA Learning Video](https://www.youtube.com/user/LBEbooks/playlists)
 - [FPGA Starter Discussion](https://www.eevblog.com/forum/fpga/exercise-focused-fpga-learning-resource/?PHPSESSID=o7e7u7ieeshb8lo6jc8hjisf75)
 
-Some Log of Random Thoughts
----
+## Some Log of Random Thoughts
 - <Algorithm> Want to design a fast algorithm, given an array of key strings, and one input string, find the first matching key for the input string.
 - <To-Study> When learning the totoally new topic, the time spent is most fruteful. New topic should be worthwhile though, like FPGA & RISC-V.
 - <Cool-Do> Want to use a MD document to create an mind-map for all the knowledge and notes for the topics that I am required to master.
 
-Notes for ARM Processor and Assembly
----
+## Notes for ARM Processor and Assembly
 Notes place-holder here.
 
-Text Playground for Experimenting with *Markdown*
----
+## Text Playground for Experimenting with *Markdown*
 Experiment for Latex support: \(E=mc^2\)
 > Latex is a great document formatting language that was invented by reknowned computer scientist *Don Knuth*. It is very strong in describing in plain text of formatting mathmatical formulae.
 
