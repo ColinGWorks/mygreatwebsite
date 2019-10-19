@@ -7,9 +7,9 @@
 - [FPGA Starter Discussion](https://www.eevblog.com/forum/fpga/exercise-focused-fpga-learning-resource/?PHPSESSID=o7e7u7ieeshb8lo6jc8hjisf75)
 
 ## Some Log of Random Thoughts
-- <Algorithm> Want to design a fast algorithm, given an array of key strings, and one input string, find the first matching key for the input string.
-- <To-Study> When learning the totoally new topic, the time spent is most fruteful. New topic should be worthwhile though, like FPGA & RISC-V.
-- <Cool-Do> Want to use a MD document to create an mind-map for all the knowledge and notes for the topics that I am required to master.
+- **Algorithm** Want to design a fast algorithm, given an array of key strings, and one input string, find the first matching key for the input string.
+- **To-Study** When learning the totoally new topic, the time spent is most fruteful. New topic should be worthwhile though, like FPGA & RISC-V.
+- **Cool-Do** Want to use a MD document to create an mind-map for all the knowledge and notes for the topics that I am required to master.
 
 ## Notes for ARM Processor and Assembly
 Notes place-holder here.
