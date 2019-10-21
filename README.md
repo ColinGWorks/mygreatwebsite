@@ -5,6 +5,7 @@
 - [Xilinx Vitis Discussion](https://www.eevblog.com/forum/fpga/xilinx-announces-vitis/?PHPSESSID=o7e7u7ieeshb8lo6jc8hjisf75)
 - [FPGA Learning Video](https://www.youtube.com/user/LBEbooks/playlists)
 - [FPGA Starter Discussion](https://www.eevblog.com/forum/fpga/exercise-focused-fpga-learning-resource/?PHPSESSID=o7e7u7ieeshb8lo6jc8hjisf75)
+- [ARM CM4 Instruction Set Manual](https://developer.arm.com/docs/dui0553/a/the-cortex-m4-instruction-set/memory-access-instructions/ldrex-and-strex)
 
 ## Some Log of Random Thoughts
 - **Algorithm** Want to design a fast algorithm, given an array of key strings, and one input string, find the first matching key for the input string.
@@ -13,6 +14,13 @@
 
 ## Notes for ARM Processor and Assembly
 Notes place-holder here.
+
+## Notes for my Black Friday Shopping
+### Digital camera
+- Some models that are 2-3 years old pack good performance while can see great price offers during BF or Prime-Day. 
+- Sony alpha a7 II - full frame, 2019 deal about $990 for the kit
+- Fujifilm
+- Canon whatever
 
 ## Text Playground for Experimenting with *Markdown*
 Experiment for Latex support: \(E=mc^2\)
