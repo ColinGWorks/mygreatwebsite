@@ -13,14 +13,45 @@
 - **Cool-Do** Want to use a MD document to create an mind-map for all the knowledge and notes for the topics that I am required to master.
 
 ## Notes for ARM Processor and Assembly
-Notes place-holder here.
+[ARM CM4 Instruction Set Manual](https://developer.arm.com/docs/dui0553/a/the-cortex-m4-instruction-set/memory-access-instructions/ldrex-and-strex)
+
+## Notes on Linux Kernel development and debugging
+**Printk calls** - [dev_dbg()/pr_info()/dev_info()](   https://elinux.org/Debugging_by_printing)
+The pr_* macros (with exception of pr_debug) are simple shorthand definitions in include/linux/printk.h for their respective printk call and should probably be used in newer drivers.
+
+pr_devel and pr_debug are replaced with printk(KERN_DEBUG ... if the kernel was compiled with DEBUG, otherwise replaced with an empty statement.
+
+For drivers the pr_debug should not be used anymore (use dev_dbg instead). 
+
+**Kernal module entry macro - module_init()**
+* It is in include/linux/init.h. 
+* The module_init() macro defines which function is to be called at module insertion time (if the file is compiled as a module), or at boot time: if the file is not compiled as a module the module_init() macro becomes equivalent to __initcall(), which through linker magic ensures that the function is called on boot.
+
+**devm_kzalloc()**
+[A Good Note on StackOverflow](https://stackoverflow.com/questions/12256986/what-is-the-difference-between-devm-kzalloc-and-kzalloc-in-linux-driver-prog)
+* kzalloc() allocates kernel memory like kmalloc(), but it also zero-initializes the allocated memory. devm_kzalloc() is managed kzalloc(). The memory allocated with managed functions is associated with the device.
+* The memory allocated with kzalloc() should be freed with kfree(). The memory allocated with devm_kzalloc() is freed automatically.
+
+**PCI configuration space** [Notes from Wikipedia](https://en.wikipedia.org/wiki/PCI_configuration_space)
+* PCI devices have a set of registers referred to as configuration space and PCI Express introduces extended configuration space for devices. Configuration space registers are mapped to memory locations. Device drivers and diagnostic software must have access to the configuration space, and operating systems typically use APIs to allow access to device configuration space.
+* **Bus Enumeration -** The system's firmware, device drivers or the operating system program the **Base Address Registers** (commonly called **BAR**s) to inform the device of its address mapping by writing configuration commands to the PCI controller. After *PCI Bus Enumeration*, the BIOS or operating system will program the memory-mapped and I/O port addresses into the device's BAR configuration register. These addresses stay valid as long as the system remains turned on. Upon power-off, all these settings are lost and the procedure is repeated next time the system is powered back on.
+* **void __iomem * pci_iomap(struct pci_dev * dev, int bar, unsigned long maxlen)** Using this function you will get a __iomem address to your device BAR. You can access it using ioread*() and iowrite*(). These functions hide the details if this is a MMIO or PIO address space and will just do what you expect from them in the correct way.
 
 ## Notes for my Black Friday Shopping
 ### Digital camera
-- Some models that are 2-3 years old pack good performance while can see great price offers during BF or Prime-Day. 
-- Sony alpha a7 II - full frame, 2019 deal about $990 for the kit
-- Fujifilm
-- Canon whatever
+Some models that are 2-3 years old pack good performance while can see great price offers during BF or Prime-Day. 
+
+**Sony alpha a7 II -** full frame, 2019 deal about $990 for the kit
+
+**Fujifilm -**
+
+**Canon -**
+
+## Notes for Car Shopping
+[US News 3-Row SUV Ranking page](https://cars.usnews.com/cars-trucks/rankings/suvs-with-3-rows)
+
+- **Mazda CX-9** MPG: 26-28 Hwy, HP 227. **Turing** trim base price  $35,330. 
+
 
 ## Text Playground for Experimenting with *Markdown*
 Experiment for Latex support: \(E=mc^2\)
