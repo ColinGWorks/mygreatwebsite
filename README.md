@@ -43,7 +43,7 @@ Some models that are 2-3 years old pack good performance while can see great pri
 
 **Sony alpha a7 II -** full frame, 2019 deal about $990 for the kit
 
-**Fujifilm -**
+**Fujifilm X-T100 -**
 
 **Canon -**
 
@@ -51,6 +51,11 @@ Some models that are 2-3 years old pack good performance while can see great pri
 [US News 3-Row SUV Ranking page](https://cars.usnews.com/cars-trucks/rankings/suvs-with-3-rows)
 
 - **Mazda CX-9** MPG: 26-28 Hwy, HP 227. **Turing** trim base price  $35,330. 
+
+## Notes for REIT
+**REIT** stand for *Real estate investment trust*, and they provide diversification and income from their dividend yields and invest in shopping centers, apartments, office buildings, data centers and cell towers. [6 Unusual REITs to Buy This Year](https://finance.yahoo.com/news/6-unusual-reits-buy-192346505.html)
+
+- **Innovative Industrial Properties (IIPR)** - a REIT that focuses on the regulated U.S. cannabis industry. The average REIT is generating low single-digit rent spreads when it purchases a property while the company generates significantly better spreads and should command a premium from investors for the foreseeable future. [Ticker IIPR](https://finance.yahoo.com/quote/IIPR?p=IIPR)
 
 
 ## Text Playground for Experimenting with *Markdown*
